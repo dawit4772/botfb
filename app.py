@@ -7,7 +7,7 @@ import config
 
 app = Flask(__name__)
 #2fsdafd-234qsdfa-asdf2dsadf
-app.config['SECRET_KEY'] = 'cede922901648f2381b5fdcbd4f3f392'
+app.config['SECRET_KEY'] = '92abc22fa451d7a46b2aaefedf872b97'
 
 
 
