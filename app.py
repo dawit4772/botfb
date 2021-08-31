@@ -13,7 +13,7 @@ app.config['SECRET_KEY'] = 'cede922901648f2381b5fdcbd4f3f392'
 
 #Function to access the Sender API
 def callSendAPI(senderPsid, response):
-    PAGE_ACCESS_TOKEN = "EAADj5ZAVnXZB8BAMZCfc8OXDXwx6ZCUKULYZCHUnZAprqCr2eHzzgZCc6Y3o4IgZANZBZAKkj1XZCHbPUw5Cq3kHDiAEpZAXtrynlpre53PhlgtlLsAPrZCVohiM6wlLFHGwCR7QZAx2d6ZCdJwX4hWJXh0WK7dNAsllNy2W4hW7WE8QTmFmnEHmBZAqrUbXvJLJIex2cc1CFvC5h9qIZAQkapx0jfmZCIPAAbSe8AoFBYrAJhBY6uRdreIyZCO6ZCpu"#config.PAGE_ACCESS_TOKEN
+    PAGE_ACCESS_TOKEN = "EAAC9EAtgY9wBAJjlz9rVtenk3zDVwAxKDs7qhVN4MjxetKFFBgu7infZBHvj5hylKzGZBzMhZBjMPThPnJrTMAggE4XxnnKwU83aslPcMc8yRcqSvrvyTcjrR8L37ehgqnwVS3W9sWmo1hwaUfWK0yIKXhEFMxZBcNpLu1EcAFdC5oZCY33Ko"#config.PAGE_ACCESS_TOKEN
 
     payload = {
     'recipient': {'id': senderPsid},
